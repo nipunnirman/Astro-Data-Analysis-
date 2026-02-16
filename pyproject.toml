@@ -1,0 +1,20 @@
+[project]
+name = "astro-data-analysis"
+version = "0.1.0"
+description = "Kepler Exoplanet Classifier"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "numpy>=1.26.0",
+    "joblib",
+    "shap>=0.46.0",
+    "matplotlib",
+    "plotly",
+    "xgboost>=2.0.0",
+    "scikit-learn",
+    "streamlit-lottie",
+    "numba>=0.60.0",
+    "llvmlite>=0.43.0",
+]
