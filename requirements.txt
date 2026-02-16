@@ -1,10 +1,12 @@
 streamlit
 pandas
-numpy
+numpy>=1.26.0
 joblib
-shap
+shap>=0.46.0
 matplotlib
 plotly
-xgboost
+xgboost>=2.0.0
 scikit-learn
 streamlit-lottie
+numba>=0.60.0
+llvmlite>=0.43.0
